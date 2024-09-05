@@ -1,0 +1,48 @@
+body{
+  background-color: #222831;
+}
+.heading-box{
+  font-size: 15px;
+  border-radius:3px;
+  background-color: #222831;
+  top: 0;
+  left: 140px;
+width: 150px;
+height: 50px;
+color: #EEEEEE;
+position: absolute;
+text-align: center;
+
+}
+.container {
+  min-height: 100vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+.div1{
+  border-radius: 7px;
+  position: relative; 
+  background-color: #EEEEEE;
+  padding: 70px;
+  width: 300px;
+  align-items: center;
+}
+.TodoInput{
+  display: flex;
+  justify-content: space-between;
+}
+.todo-task{
+  font-family:'Sans-serif';
+  text-align: center;
+}
+.myaddbutton{
+
+  padding-left: 80px;
+}
+.trashbutton{
+  border: none;
+  padding-left: 20px;
+}
